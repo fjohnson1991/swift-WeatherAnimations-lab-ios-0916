@@ -5,6 +5,8 @@ target 'WeatherAnimations' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
+  pod 'SnapKit', '~> 3.0.2'
+
   # Pods for WeatherAnimations
   pod 'SwiftyJSON'
   pod 'Alamofire', '~> 4.0'
